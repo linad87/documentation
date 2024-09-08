@@ -1,9 +1,8 @@
 # Table of contents
 
 * [JFrog Runtime Security](README.md)
-* [Get Started](get-started/README.md)
-  * [Solution Architecture](get-started/solution-architecture.md)
-  * [System Requirements](get-started/system-requirements.md)
+  * [Solution Architecture](jfrog-runtime-security/solution-architecture.md)
+  * [System Requirements](jfrog-runtime-security/system-requirements.md)
 * [Sensor Management](sensor-management/README.md)
   * [Installation](sensor-management/installation/README.md)
     * [Uninstall Sensors](sensor-management/installation/uninstall-sensors.md)

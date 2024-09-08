@@ -2,8 +2,8 @@
 
 The JFrog Runtime has two installation options depending on what you have purchases.&#x20;
 
-* Runtime Integrity: Default option with [Runtime Controller ](../../get-started/solution-architecture.md#controller)only.&#x20;
-* Runtime Impact: An additional option that includes Runtime Controller and [Runtime Sensors](../../get-started/solution-architecture.md#runtime-sensor).&#x20;
+* Runtime Integrity: Default option with [Runtime Controller ](../../jfrog-runtime-security/solution-architecture.md#controller)only.&#x20;
+* Runtime Impact: An additional option that includes Runtime Controller and [Runtime Sensors](../../jfrog-runtime-security/solution-architecture.md#runtime-sensor).&#x20;
 
 The Sensor Management capability includes a convenient feature that allows users to install sensors on their clusters easily.
 
