@@ -18,9 +18,6 @@
 | ---------- | ----------------------------------------------------------------------------------------------------------------------------------- |
 | 1.21+      | ![:cross\_mark:](https://jfrog-int.atlassian.net/gateway/api/emoji/62d6e2d0-84c6-4564-9b2c-7379252a974d/atlassian-cross\_mark/path) |
 
-**Kubernetes** permissions needed for installing user:\
-NET\_ADMIN, SYS\_ADMIN, SYS\_PTRACE, SYS\_MODULE
-
 #### Kernel Operating Systems Support  <a href="#kernel-operating-systems-support" id="kernel-operating-systems-support"></a>
 
 | Linux Kernel         | Windows Kernel                                                                                                                      |
