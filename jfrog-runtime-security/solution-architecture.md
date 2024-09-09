@@ -33,7 +33,7 @@ As shown in the diagram, communication between customer clusters and the JFrog P
 This default option Runtime Integrity is tailored for users purchasing the E++ bundle, which includes Curation+Xray+JFrog Advanced Security+Runtime (controller only).&#x20;
 {% endhint %}
 
-The Runtime Controller is responsible for tracking Kubernetes cluster behavior and sending this information to the runtime service in the platform. The controller achieves this by monitoring cluster activity and detecting the execution of Kubernetes resources such as Pods, Workloads, and Nodes.\
+The Runtime Controller is responsible for tracking Kubernetes cluster behavior and sending this information to the runtime service in the platform. The controller achieves this by monitoring cluster activity and detecting the execution of Kubernetes resources such as Nodes, Workloads, Pods and Containers.\
 
 
 Controllers are deployed as Kubernetes Deployments and are installed once per cluster.
@@ -42,7 +42,7 @@ Controllers are deployed as Kubernetes Deployments and are installed once per cl
 
 The Runtime Service is a standard JFrog Platform service with an adjacent router that supports message routing across the JFrog Platform. The service also manages the runtime MFE that implements the Runtime-related user interface. The Runtime service uses a persistent Runtime Postgres database to store and retrieve runtime data.
 
-The Runtime Service integrates runtime information with data from Artifactory and Xray, enabling the identification of artifacts, pinpointing the location in the Artifactory registry where these artifacts are stored, and combining security information provided by Xray. This offers additional insights into the security status of the runtime artifacts, such as images, processes, and files detected in the runtime environment.
+The Runtime Service integrates runtime information with data from Artifactory and Xray, enabling the identification of artifacts, pinpointing the location in the Artifactory registry where these artifacts are stored, and combining security information provided by Xray.&#x20;
 
 <figure><img src="../.gitbook/assets/Diagram1.png" alt=""><figcaption></figcaption></figure>
 

@@ -6,8 +6,8 @@ Images are packaged binary files that contain the necessary code, runtime, libra
 
 The table consists of these main key data:
 
-* **Risk column**: The risk column displays the risk of the riskiest image tag. If in the image tag table there is a separation based on architecture, the risk that appears in the image table should be shown based on the row with the highest risk.&#x20;
-* **Vulnerabilities column**: The vulnerabilities column displays the number of vulnerabilities of the riskiest tag that was selected for the risk column.
+* **Risk column**: The risk column displays the risk of the riskiest image tag. If in the image tag table there is a separation based on architecture, the risk that appears in the image table should be shown based on the image tag with the highest risk.&#x20;
+* **Vulnerabilities column**: The vulnerabilities column displays the number of vulnerabilities of the riskiest tag.
 
 
 
