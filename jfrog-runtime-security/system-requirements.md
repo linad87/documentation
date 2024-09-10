@@ -4,7 +4,7 @@
 
 | Artifactory | Xray    |
 | ----------- | ------- |
-| 7.77.20     | 3.102.3 |
+| 7.77.20     | 3.104.8 |
 
 #### Computing Platforms Support  <a href="#computing-platforms-support" id="computing-platforms-support"></a>
 
