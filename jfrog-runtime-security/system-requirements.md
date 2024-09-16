@@ -34,14 +34,11 @@
 
 Nodes are considered to run an average of 100 pods.
 
-| Number of running nodes | CPU                                            | Memory  |
-| ----------------------- | ---------------------------------------------- | ------- |
-| 100 nodes and below     | 6 Cores                                        | 10 GiB  |
-| 500 nodes and below     | 30 Cores                                       | 50 GiB  |
-| 1000 nodes and below    | 60 Cores                                       | 100 GiB |
-| 1500 nodes and below    | 90 Cores                                       | 150 GiB |
-| 2000 nodes and below    | 120 Cores                                      | 200 GiB |
-| 2000 and above          | Contact JFrog Support for sizing requirements. |         |
+| Number of running nodes | CPU                                            | Memory |
+| ----------------------- | ---------------------------------------------- | ------ |
+| 100 nodes and below     | 6 Cores                                        | 16 GiB |
+| 500 nodes and below     | 30 Cores                                       | 16 GiB |
+| 1000 nodes and below    | Contact JFrog Support for sizing requirements. |        |
 
 &#x20;
 
@@ -51,16 +48,11 @@ Type of supported database: Postgres16
 
 Nodes are considered to run an average of 100 pods.
 
-| Monitored Nodes                                                  | vCPUs                                          | Memory (GiB) | Storage Type                                                        | Network Performance |
-| ---------------------------------------------------------------- | ---------------------------------------------- | ------------ | ------------------------------------------------------------------- | ------------------- |
-| Runtime Integrity (controller only setup) or 100 nodes and below | 2                                              | 10           | <p>SSD</p><p>20 GiB<br>IOps: 600<br>Throughput:500MBps</p>          | 4750 Mbps           |
-| 500 nodes and below                                              | 10                                             | 32           | <p>SSD</p><p>100 GiB</p><p>IOps: 3000</p><p>Throughput:500MBps</p>  | 4750 Mbps           |
-| 1000 nodes and below                                             | 20                                             | 64           | <p>SSD</p><p>200 GiB</p><p>IOps: 6000</p><p>Throughput:500MBps</p>  | 4750 Mbps           |
-| 1500 nodes and below                                             | 30                                             | 96           | <p>SSD</p><p>300 GiB</p><p>IOps: 9000</p><p>Throughput:500MBps</p>  | 9600 Mbps           |
-| 2000 nodes and below                                             | 40                                             | 128          | <p>SSD</p><p>400 GiB</p><p>IOps: 12000</p><p>Throughput:700MBps</p> | 9600 Mbps           |
-| 2000 nodes and above                                             | Contact JFrog Support for sizing requirements. |              |                                                                     |                     |
+<table><thead><tr><th>Monitored Nodes</th><th width="200">vCPUs</th><th>Memory (GiB)</th><th>Storage Type</th><th>Network Performance</th></tr></thead><tbody><tr><td>Runtime Integrity (controller only setup) or 100 nodes and below</td><td>2</td><td>10</td><td><p>SSD</p><p>20 GiB<br>IOps: 600<br>Throughput:500MBps</p></td><td>4750 Mbps</td></tr><tr><td>500 nodes and below</td><td>10</td><td>32</td><td><p>SSD</p><p>100 GiB</p><p>IOps: 3000</p><p>Throughput:500MBps</p></td><td>4750 Mbps</td></tr><tr><td>1000 nodes and below</td><td>Contact JFrog Support for sizing requirements.</td><td></td><td></td><td></td></tr></tbody></table>
 
-#### Supported Package Types <a href="#supported-package-type" id="supported-package-type"></a>
+#### Runtime Impact Supported Package Types <a href="#supported-package-type" id="supported-package-type"></a>
+
+This list is not relevant for Runtime Integrity
 
 | Java                                                                                                                                | Go                                                                                                                                  | OS executables                                                                                                                      |
 | ----------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
