@@ -3,7 +3,7 @@
 * [JFrog Runtime Security](README.md)
   * [Solution Architecture](jfrog-runtime-security/solution-architecture.md)
   * [System Requirements](jfrog-runtime-security/system-requirements.md)
-  * [Runtime Self-Hosted Installation](jfrog-runtime-security/runtime-self-hosted-installation.md)
+  * [Installing JFrog Runtime Security](jfrog-runtime-security/installing-jfrog-runtime-security.md)
 * [Sensor Management](sensor-management/README.md)
   * [Controller/Sensor Installation](sensor-management/controller-sensor-installation/README.md)
     * [Uninstall Sensors](sensor-management/controller-sensor-installation/uninstall-sensors.md)
